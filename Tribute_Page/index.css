@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Formata', sans-serif;
+    
+}
+/*header*/
+header{
+    background-color:#374151 ;
+    display:flex;
+    justify-content: center;
+}
+/*navbar*/
+nav{
+    background-color: #E5E7EB;
+    height:50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+/*imgsection*/
+#img_section{
+    background-color: #374151;
+    height:auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+img{
+    padding: 10px;
+}
+#img_section p{
+    display: flex;
+    flex-direction: column;
+    color:#E5E7EB;
+    align-self:center;
+    font-size: 19px;
+}
+cite{
+    align-self: center;
+}
+/*about_her section*/
+#about_her{
+    background-color:#E5E7EB;
+    display:flex;
+}
+.about_her_border{
+    max-width: 100%;
+    padding: 8px;
+}
+.about_her_border h3{
+    color: #374151;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.about_her_border p{
+    color: #374151;
+}
+/*education section*/
+#education{
+    background-color: #374151;
+    height:fit-content;
+}
+.heading{
+    text-align: center;
+    color:#E5E7EB;
+    max-width: 100%;
+    padding: 10px;
+    font-size:25px;
+}
+.education_dream{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 8px;
+}
+.education_child{
+    flex-basis: 45%;
+    background-color: #E5E7EB;
+}
+.education_life{
+    flex-basis: 45%;
+    background-color: #E5E7EB;
+   
+}
+.education_life h3{
+    text-align: center;
+    padding-top:10px;
+    color:  #374151;
+}
+.education_child h3{
+    padding-top:10px;
+    text-align: center;
+    color:#374151;
+}
+.education_child p{
+    color: #374151;
+    padding: 8px;
+}
+.education_life p{
+    color: #374151;
+    padding: 8px;
+}
+/*career section*/
+#career_section{
+    background-color: #E5E7EB;
+    max-width: 100%;
+    display:flex;
+}
+.career_section_border{
+    padding:8px;
+}
+.career_section_border h3{
+    text-align: center;
+    color:  #374151;
+    padding:8px;
+    font-size: 25px;
+}
+.career_section_border p{
+    color:  #374151;
+}
+/*space_travel section*/
+#space_travel{
+    background-color: #374151;
+    height:fit-content;
+}
+#space_travel>h3{
+    text-align: center;
+    color:#E5E7EB;
+    padding: 10px;
+    font-size: 25px;
+}
+.space_travel_dream{
+    padding:5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dream_come_true{
+    flex-basis: 40%;
+    background-color: #E5E7EB;
+    padding: 8px;
+}
+.dream_come_true h3{
+    text-align: center;
+    color: #374151;
+}
+.dream_come_true p{
+    color: #374151;
+}
+/*honour section*/
+#honour_section{
+    background-color: #E5E7EB;
+    height:fit-content;
+}
+#honour_section h3{
+    color: #374151;
+    text-align: center;
+    padding: 10px;
+    font-size:25px;
+}
+.honour_part{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.honour_part div{
+    flex-basis: 30%;
+    margin:10px;
+    background-color: #374151;
+    color:#E5E7EB;
+    padding: 10px;
+}
+/*footer section*/
+.footer_section{
+    max-width: 100%;
+    height:100px;
+    background-color: #374151;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.qoute{
+    color:#E5E7EB;
+    align-self: center;
+}
+.copyright_section{
+    text-align: center;
+    color:#E5E7EB;
+}
+/*media query*/
+@media screen and (max-width:800px){
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*navbar*/
+nav{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*img_section*/
+#img_section{
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+img{
+    align-self: center;
+    padding: 10px;
+}
+#img_section p{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size:13px;
+}
+cite{
+    align-self: center;
+}
+/*education section*/
+.education_dream{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+ .education_child{
+     flex-basis: 100%;
+     background-color: #E5E7EB;
+     margin:10px;
+}
+ .education_life{
+     flex-basis: 100%;
+     background-color: #E5E7EB;
+     margin:10px;
+ }
+ /*space travel section*/
+ .space_travel_dream{
+    padding:5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dream_come_true{
+    flex-basis: 100%;
+    background-color: #E5E7EB;
+    margin: 10px;
+    padding: 8px;
+}
+/*honour section*/
+.honour_part div{
+    flex-basis: 30%;
+    padding:10px;
+}
+}
+@media all and (max-width:700px){
+/*education section*/
+#education{
+    height:fit-content;
+}
+.heading{
+    font-size: 24px;
+}
+.education_dream{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.education_child{
+    flex-basis: 100%;
+    background-color: #E5E7EB;
+    margin:10px;
+}
+.education_life{
+    flex-basis: 100%;
+    background-color: #E5E7EB;
+    margin:10px;
+}
+.education_life h3{
+    text-align: center;
+    padding-top:10px;
+    color:  #374151;
+}
+.education_child h3{
+    padding-top:10px;
+    text-align: center;
+    color:#374151;
+}
+.education_child p{
+    color: #374151;
+    padding: 8px;
+}
+.education_life p{
+    color: #374151;
+    padding: 8px;
+}
+/*space-travel*/
+#space_travel{
+    background-color: #374151;
+    height:fit-content;
+}
+#space_travel>h3{
+    text-align: center;
+    color:#E5E7EB;
+    padding: 10px;
+    font-size: 25px;
+}
+.space_travel_dream{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+.dream_come_true{
+    flex-basis: 100%;
+    margin-top:10px;
+    background-color: #E5E7EB;
+    padding: 8px;
+}
+.dream_come_true h3{
+    text-align: center;
+    color: #374151;
+}
+.dream_come_true p{
+    color: #374151;
+}
+/*honour section*/
+#honour_section{
+    background-color: #E5E7EB;
+    height:fit-content;
+}
+.honour_part div{
+    flex: 50%;
+    padding:20px;
+}
+}
+@media all and (max-width:500px) {
+.qoute{
+    padding:10px;
+    }
+}
